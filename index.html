@@ -9,7 +9,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
+<body id="page-top">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -39,9 +39,9 @@
             <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </nav>
@@ -50,17 +50,20 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-            <h1 class="mb-0">Hello
-                <span class="text-primary">world</span>
-            </h1>
+            <h2 class="mb-0">Elizabeth
+                <span class="text-primary">Wong</span>
+            </h2>
             <hr>
             <img class="rounded-circle" src="Headshot.jpg" />
-            <div class="subheading mb-5"><strong>Elizabeth Wong</strong>
+            <div class="subheading mb-5">
                 <br> Twin Cities, Minnesota · (515) 450-0237 ·
                 <a href="mailto:elizabeth.xp.wong@gmail.com">elizabeth.xp.wong@gmail.com</a>
             </div>
-            <p class="mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative
-                approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+            <p class="mb-5">I am a Junior Developer with a desire to learn. Highly logical individual with a creative bent 
+                and love of language and performing arts. Excited junior member of the Twin
+                Cities technical community, enthusiastic to grow!</p>
+                <a href="https://www.linkedin.com/in/elizabeth-wong-61aa3153/">LinkedIn</a>
+                <a href="https://github.com/lizzwong">Github</a>
             <ul class="list-inline list-social-icons mb-0">
                 <li class="list-inline-item">
                     <a href="#">
@@ -98,7 +101,7 @@
         </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-8 d-flex flex-column" id="experience">
+    <section class="resume-section p-3 p-lg-7 d-flex flex-column" id="experience">
         <div class="my-auto">
             <h2 class="mb-5">Experience</h2>
 
@@ -126,6 +129,7 @@
 
                     <div class="subheading mb-3"><strong>Caponi Art Park</strong></div>
                     <hr>
+                    <a href="https://caponiartpark.herokuapp.com/#!/">The Caponi Art Park Page</a>
                     <ul>
                         <li>
                              Caponi Art Park is a 60 acre installation in Eagan, MN that features the sculptures created by its founder, Anthony Caponi.
@@ -262,11 +266,36 @@
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
             <h2 class="mb-5">Skills</h2>
-
-
- JavaScript HTML 5 ES6 Angular JS jQuery React Node.js NPM Express AJAX PostgreSQL Postman Postico Mongoose MongoDB Git Github
-Filestack Passport Heroku VScode APIs CRUD Bootstrap AngularJS Material CSS 5
-
+            <div class="skills">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>HTML 5</li>
+                    <li>ES6</li>
+                    <li>Angular JS</li>
+                    <li>jQuery</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>NPM</li>
+                    <li>Express</li>
+                    <li>AJAX</li>
+                    <li>PostgreSQL</li>
+                    <li>Postman</li>
+                    <li>Postico</li>
+                    <li>Mongoose</li>
+                    <li>MongoDB</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Filestack</li>
+                    <li>Passport</li>
+                    <li>Heroku</li>
+                    <li>VScode</li>
+                    <li>APIs</li>
+                    <li>CRUD</li>
+                    <li>Bootstrap</li>
+                    <li>AngularJS Material</li>
+                    <li>CSS 5</li>
+                </ul>
+            </div>
             
             <div class="subheading mb-3">Workflow</div>
             <ul class="fa-ul mb-0">
@@ -282,53 +311,26 @@ Filestack Passport Heroku VScode APIs CRUD Bootstrap AngularJS Material CSS 5
             <h2 class="mb-5">Interests</h2>
             <p>Starting from a very young age, I have had an overwhelming love of the arts. At the age of three I sat and watched the whole
                 of Bizet's Carmen. Every since then I take every opportunity to immerse myself in music and the arts. 
-                But 
+                Despite stepping away from consistant study, one of my great art loves is ballet, and dance in general. I performed
+                a variety of roles in my local Nutcracker and still get chills when I hear The Waltz of the Snowflakes.
+                <br>I will add that not all of my music tastes are classicaly sourced. I have seen the thrash-metal band Megadeth live more
+                than fifteen times, and one of my favorite artists ever is the Americana Brandi Carlile. 
             </p>
-            <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring
-                chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end
-                web development world.</p>
+            <img src="Brandi.jpg">
+            <hr>
+            <p class="mb-0">Besides music and the performing arts, one of my favorite past-times is food. Finding new restaurants,
+                new recipes, and weird food combinations. Nothing is more exciting than finding a menu online and wanting to try the whole thing.
+                <br>But no restaraunt can compare to Mom's homemade oxtail soup over rice.  </p>
         </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+    <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
             <h2 class="mb-5">Awards &amp; Certifications</h2>
             <ul class="fa-ul mb-0">
-                <li>
-                    <i class="fa-li fa fa-trophy text-warning"></i>
-                    Google Analytics Certified Developer</li>
-                <li>
-                    <i class="fa-li fa fa-trophy text-warning"></i>
-                    Mobile Web Specialist - Google Certification</li>
-                <li>
-                    <i class="fa-li fa fa-trophy text-warning"></i>
-                    1
-                    <sup>st</sup>
-                    Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-                <li>
-                    <i class="fa-li fa fa-trophy text-warning"></i>
-                    1
-                    <sup>st</sup>
-                    Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-                <li>
-                    <i class="fa-li fa fa-trophy text-warning"></i>
-                    2
-                    <sup>nd</sup>
-                    Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-                <li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        1
-                        <sup>st</sup>
-                        Place - James Buchanan High School - Hackathon 2006</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        3
-                        <sup>rd</sup>
-                        Place - James Buchanan High School - Hackathon 2005</li>
-            </ul>
+                
         </div>
-    </section>
+    </section> -->
 
 </div>
 

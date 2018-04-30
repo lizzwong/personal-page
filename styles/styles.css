@@ -1,6 +1,7 @@
 img {
     width: full;
     height: 200px;
+    margin-left:250px;
 }
 
 body {
@@ -152,4 +153,8 @@ a {
 
 a:hover, a:focus, a:active {
   color: #100649;
+}
+
+.skills {
+    column-count: 3;
 }
